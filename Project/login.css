@@ -1,0 +1,119 @@
+.log{
+  border: 4px red solid;
+  float: "center";
+  font-size: 27px;
+  background-color: aquamarine;
+  width: 700px;
+  height: 700px;;
+  position: absolute;
+  left: 450px;
+  text-align: center;
+  border-radius: 50px;
+  background-color:linen;
+  /**background-image: url(images/bg.jpg); **/
+}
+
+#error1{
+  font-size: 18px;
+}
+#error2{
+  font-size: 18px;
+}
+
+#error3{
+  font-size: 14px;
+}
+#error4{
+  font-size: 14px;
+}
+
+#error5{
+  font-size: 14px;
+}
+
+#error6{
+  font-size: 14px;
+}
+
+footer{
+  background-color: darkkhaki;
+}
+h1{
+  border: 4px;
+  background-color: aquamarine;
+}
+div{
+  text-align: center;
+}
+#sign{
+  width: 100px;
+  height: 40px;
+  color:maroon;
+  font-size: 24px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  /* position: absolute;
+  margin-top: 100px; */
+}
+.bor {
+  border-collapse:separate;
+  border-spacing:0 15px;
+  /* background-color:darkcyan; */
+  
+}
+tr{
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+#sign1{
+  width: 100px;
+  height: 40px;
+  color:maroon;
+  font-size: 24px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+#name{
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+}
+#email{
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+}
+
+#password{
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+}
+#cpassword{
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+}
+
+table{
+position: absolute;
+left: 200px;
+  
+}
+body{
+  background-color: blueviolet;
+  background-image: url('images/bg.jpg');
+  color:maroon;
+}
+.grp{
+ margin-bottom: 40px;
+ padding: 30px;
+ 
+ 
+}
+.social{
+  
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}

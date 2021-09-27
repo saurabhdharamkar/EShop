@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="login.css">
+ 
+</head>
+<body>
+  <form action="login.html" onsubmit="return validateReg()" novalidate>
+    <div class="log">
+      <h1>Register Here</h1>
+      <img src="images/reg.png" width="140" height="140">
+      <table class="bor">
+
+        <tr class="grp">
+          <td><label>Name</label></td>
+         <td><input type="name" name="name" onblur="validate3()"  id="name" required></td> 
+         <td><span id="error3"></span></td>
+        </tr>
+        <tr class="grp">
+          <td>
+      
+        <label>Email Address</label></td>
+       <td><input type="email" name="email" onblur="validate4()"  id="email" required></td>
+       <td><span id="error4"></span></td>
+
+      </tr>
+     <tr class="grp"><td>
+        <label>Password</label></td>
+       <td> <input type="password" name="password" onblur="validate5()" id="password" required>
+      </td><td><span id="error5"></span></td></tr> 
+      <tr class="grp"><td>
+        <label>Confirm Password</label></td>
+       <td> <input type="cpassword" name="cpassword" onblur="validate6()" id="cpassword" required>
+      </td><td><span id="error6"></span></td></tr> 
+     
+    </table>
+    <br><br><br><br>
+    <br><br><br><br>
+    <br><br>
+      
+         
+         <input type="submit" id="sign1" value="Sign Up">
+       
+        </div>
+      </form>
+        <script src="Validation.js"></script>
+   
+</body>
+</html>

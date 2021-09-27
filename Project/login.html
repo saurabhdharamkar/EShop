@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="login.css">
+  
+</head>
+<body>
+   <form action="index.html"  onsubmit="return validateLogin()" novalidate>
+    <div class="log">
+      <h1>Sign In</h1>
+      <img src="images/login.jpg" width="140" height="140">
+      <table class="bor">
+        <tr>
+          <td>
+      
+        <label>Enter Email</label></td>
+       <td><input type="email" name="email"  id="email" onblur="validate1()" required></td> 
+       <td><span id="error1"></span></td>
+      </tr>
+      <!-- <tr><td></td><td><span id="error1"></span></td></tr> -->
+      
+     <tr><td>
+      <label>Enter Password</label></td>
+       <td> <input type="password" name="password" id="password" onblur="validate2()" required></td>
+      <td> <span id="error2"></span></td></tr> 
+      
+      <tr></tr>
+    </table>
+    <br><br><br><br><br><br>
+      <input type="submit" id="sign" value="Sign In">
+    
+    </form>
+    
+      <!-- <link><p >Forgot Password ?</p></link> -->
+    
+      
+           <h3>New here?</h3>
+          <p>Sign up and discover great amount of new opportunities!</p>
+          <a href="Registration.html"><input type="button" id="sign1" value="Sign Up"></button></a>
+       
+        </div>
+      
+      
+        <script src="Validation.js"></script>
+     
+       
+</body>
+</html>
